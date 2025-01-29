@@ -1,0 +1,39 @@
+1)git init - for initializing the repository and making it as a working directory
+ 
+2)git config --global user.name "name"
+  git config --global user.email "email"
+to see the list --git config --list
+ 
+3)git clone <url> - for getting the project remote repo to the local repo
+ 
+4)git add . or git add <file name> - for moving a file from untracked to staging area
+ 
+5)git commit -m "commit msg" - for moving a file from staging area to local repo
+ 
+6)git push -u origin main - for moving a file from local repo to central repo
+ 
+7)git status - for checking the file status
+ 
+8)git log - to show all the commit history
+		use "!" this to exit from log
+ 
+9)git checkout -b <branch name> - For creating a branch and moving control inside the branch
+ 
+-git branch <branch name> - It will simply create a branch
+ 
+-git checkout <branch name> - For switching b/w branches
+ 
+10)git merge <branch name> - Merging a branch
+ 
+git fork - Simply it is going to create a copy of someone else's repository under my GitHub account.
+
+11)git fetch - It just shows you the changes that happened in the remote repo.
+ 
+12)git pull - For getting the latest code changes from remote repo
+
+13)git diff - To see the changes that we have made to the previous version and to the present version
+ 
+14)git stash - For temporarily saving your changes in staging area all the change
+ 
+ 
+	     - git stash apply - for getting back the hidden file
